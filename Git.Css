@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+/* Contenedor centrado */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px 60px;
+            border-radius: 18px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+            border-left: 6px solid #f34f29; /* Color característico de Git */
+        }
+
+        /* Títulos */
+        h2 {
+            color: #f34f29;
+            font-size: 2.4em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 12px;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 80px;
+            height: 5px;
+            background: #f34f29;
+            border-radius: 3px;
+        }
+
+        /* Párrafos */
+        p {
+            font-size: 1.15em;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Lista con estilo */
+        ul {
+            background: #fff8f5;
+            padding: 25px 40px;
+            border-radius: 12px;
+            border-left: 5px solid #f34f29;
+            margin: 30px 0;
+            font-size: 1.15em;
+        }
+
+        ul li {
+            margin-bottom: 14px;
+            position: relative;
+            padding-left: 10px;
+        }
+
+        ul li::before {
+            content: '▹';
+            color: #f34f29;
+            font-weight: bold;
+            position: absolute;
+            left: -20px;
+        }
+
+        /* Imágenes */
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin: 50px 0;
+        }
+
+        .images img {
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+            max-width: 280px;
+        }
+
+        .images img:hover {
+            transform: translateY(-10px);
+        }
