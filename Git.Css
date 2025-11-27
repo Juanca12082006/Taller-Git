@@ -101,3 +101,10 @@
     
 
 }
+button:window-inactive
+
+{
+    background-color: var(--button-bg-inactive);
+    color: var(--button-fg-inactive);
+    border: 1px solid var(--button-border-inactive);
+}
