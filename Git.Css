@@ -88,3 +88,11 @@
         .images img:hover {
             transform: translateY(-10px);
         }
+
+.info-git {
+    max-width: 600px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
